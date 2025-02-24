@@ -240,6 +240,8 @@ VALUES
 ('Liam', 'Green', 'liam@example.com', 'password22', 34),
 ('Emma', 'Baker', 'emma2@example.com', 'password23', 31);
 
+DROP Table users;
+
 -------------- 👇 SubString Function ----------------
 
 SELECT SUBSTRING("Hello World",5,7);
@@ -598,3 +600,15 @@ SELECT * FROM employee_names;
 
 -----------  👇  Delete the view -------------
 DROP VIEW employee_names;
+
+
+SELECT * FROM users;
+DELETE FROM users WHERE email ='sarank@gmail.com';
+
+-------------------------------                👇 INDEX                --------------------------------
+SHOW INDEX from users; -- 👈 Show all Index in your Table
+CREATE INDEX age_index on users(age); -- 👈 Creating Index 
+
+ALTER Table users DROP INDEX age_index; -- 👈 Drop the Index 
+
+ALTER Table users ADD INDEX (password); -- Another way of Creating or Add Index 
