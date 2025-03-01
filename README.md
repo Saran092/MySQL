@@ -6,7 +6,7 @@ This project contains an SQL script  that sets up a basic e-commerce database. I
 ## Technologies Used
 - **Database**: MySQL
 - **Query Language**: SQL
-- **Tools**: MySQL Workbench, phpMyAdmin, or any preferred SQL client
+- **Tools**: MySQL Workbench & any preferred SQL client
 
 ## Features
 - User, Product, Order, and Order Items tables
@@ -14,3 +14,13 @@ This project contains an SQL script  that sets up a basic e-commerce database. I
 - Sample data insertion
 - Basic indexing for performance
 - Stored procedures and triggers
+## Indexing in MySQL
+ - Indexing in MySQL is a technique used to improve the speed of data retrieval operations in a database. It works similarly to an index in a book, allowing the database to locate data quickly without scanning the entire table.
+   
+**Types of Indexes in MySQL**
+
+  - Primary Index
+  - Unique Index
+  - Composite Index
+  - Full-Text Index
+  - Spatial Index
