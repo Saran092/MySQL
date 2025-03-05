@@ -37,4 +37,4 @@ This project contains an SQL script  that sets up a basic e-commerce database. I
  - Durability →  Once a transaction is committed, it is permanently stored.
 
    # Date and Time
-- Tomorrow
+- DATEDIFF - return count of different
